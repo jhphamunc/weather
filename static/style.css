@@ -1,0 +1,11 @@
+form {
+    display: inline-block;
+    vertical-align: middle; /* Align forms to the top */
+    margin-right: 20px; /* Adjust spacing between forms */
+}
+
+form input,
+form button {
+    display: inline-block;
+    vertical-align: middle; /* Align input and button elements vertically */
+}

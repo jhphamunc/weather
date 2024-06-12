@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Report</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{url_for('static', filename='script.js')}}"></script>
+</head>
+<body>
+    <h1> Jonathan the Weatherman </h1>
+    <form id="add-location-form-longitude">
+        <h2>Longitude</h2>
+        <input type="text" id = "new-location-longitude" placeholder ="Enter Longitude" required>
+        <button type="submit">Submit</button>
+    </form>
+    <form id="add-location-form-latitude">
+        <h2>Latitude</h2>
+        <input type="text" id = "new-location-latitude" placeholder ="Enter Latitude" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
